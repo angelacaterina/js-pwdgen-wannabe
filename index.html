@@ -7,22 +7,27 @@
     <title>JavaScript password</title>
   </head>
   <body>
-    <h1>Password</h1>
-    <p id="userPassword"></p>
+    <h1>Password generator</h1>
+    <p>Your password is: <span id="userPassword"></span></p>
 
     <!-- JavaScript interno -->
     <!-- <script type="text/javascript">
-      // Prompt
-      //Variabili
-      var userName = prompt("Inserire il proprio nome");
-      var userLastName = prompt("Inserire il proprio cognome");
-      var favoriteColor = prompt("colore preferito?");
+    // Prompt
+    //Variabili
+    var userName = prompt("What's your name?");
 
-      //metodo 1
-      document.getElementById('userPassword').innerHTML = userName + userLastName + favoriteColor + "19";
+    alert("Hello " + userName);
 
-      //metodo 2
-      var userPassword = document.getElementById('userPassword').innerHTML = userName + userLastName + favoriteColor + "19";
+    var userLastName = prompt("What's your last name?");
+    var favoriteColor = prompt("What's your favourite colour?");
+
+    alert("Abbiamo finito con le domande per la creazione della tua password")
+
+    //metodo 1
+    document.getElementById('userPassword').innerHTML = userName + userLastName + favoriteColor + "19";
+
+    //metodo 2
+    var userPassword = document.getElementById('userPassword').innerHTML = userName + userLastName + favoriteColor + "19";
     </script> -->
 
     <!-- JavaScript esterno -->
